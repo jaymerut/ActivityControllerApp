@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B2F22C95-9808-402C-A7A7-518A3CAA9B3A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA481AEB-F14B-46B0-94D5-52272860ECE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ActivityControllerAppUITests/ActivityControllerAppUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "testCopy()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA481AEB-F14B-46B0-94D5-52272860ECE8 - 9a67fa3ea2551a86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ActivityControllerAppUITests.ActivityControllerAppUITests.testCopy() throws -&gt; ()"
+                  moduleName = "ActivityControllerAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jayme-rutkoski/Development/Sandhills/GitHub/ActivityControllerApp/ActivityControllerAppUITests/ActivityControllerAppUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "FA481AEB-F14B-46B0-94D5-52272860ECE8 - 9a67fa3ea2551a86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ActivityControllerAppUITests.ActivityControllerAppUITests.testCopy() throws -&gt; ()"
+                  moduleName = "ActivityControllerAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jayme-rutkoski/Development/Sandhills/GitHub/ActivityControllerApp/ActivityControllerAppUITests/ActivityControllerAppUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
