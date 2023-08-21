@@ -24,7 +24,7 @@ final class ActivityControllerAppUITests: XCTestCase {
 
     func testCopy() throws {
         let app = XCUIApplication()
-        app.launch()
+                app.launch()
         app.buttons["TEST ME"].tap()
                 
         XCUIApplication().collectionViews.containing(.cell, identifier: "Copy").element.tap()
@@ -42,13 +42,14 @@ final class ActivityControllerAppUITests: XCTestCase {
         element.swipeUp()
         
         let collectionViewsQuery = app.collectionViews
+        collectionViewsQuery.children(matching: .cell).allElementsBoundByIndex.last?.tap()
 
-        collectionViewsQuery.children(matching: .cell).matching(identifier: "XCElementSnapshotPrivilegedValuePlaceholder").element(boundBy: 2).children(matching: .other).element(boundBy: 1).children(matching: .other).element(boundBy: 2).tap()
         app.navigationBars["FullDocumentManagerViewControllerNavigationBar"].buttons["Save"].tap()
         
         let replaceAlert = app.alerts["Replace Existing Items?"].exists
         if replaceAlert {
             app.alerts["Replace Existing Items?"].scrollViews.otherElements.buttons["Replace"].tap()
         }
+                                                                
     }
 }
